@@ -1,0 +1,11 @@
+Model Information:
+* title:	Old 8mm Camera
+* source:	https://sketchfab.com/3d-models/old-8mm-camera-64bd72851ef349ef9cd24403df1789ad
+* author:	Arnaud Bellour (https://sketchfab.com/arnaudbellour)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Old 8mm Camera" (https://sketchfab.com/3d-models/old-8mm-camera-64bd72851ef349ef9cd24403df1789ad) by Arnaud Bellour (https://sketchfab.com/arnaudbellour) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

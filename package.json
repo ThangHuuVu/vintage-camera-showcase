@@ -15,5 +15,9 @@
     "react-dom": "17.0.2",
     "three": "0.128.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gltfjsx": "^4.1.5",
+    "obj2gltf": "^3.1.0"
+  }
 }
