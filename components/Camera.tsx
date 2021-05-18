@@ -9,11 +9,11 @@ title: Old 8mm Camera
 import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
-export default function Model(props) {
+export default function Model() {
   const group = useRef();
   const { nodes, materials } = useGLTF("/gltf/old_8mm_camera/scene.gltf");
   return (
-    <group ref={group} {...props} dispose={null}>
+    <group ref={group} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
         <group scale={[0.09, 0.09, 0.09]}>
           <group position={[-4.13, -9.37, -29.87]}>
