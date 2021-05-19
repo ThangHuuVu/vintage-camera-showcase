@@ -6,13 +6,28 @@ module.exports = {
   },
   extends: [
     "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
     "airbnb",
     "plugin:prettier/recommended",
   ],
+  settings: {
+    "import/resolver": {
+      node: {
+        extensions: [".js", ".jsx", ".ts", ".tsx"],
+      },
+      typescript: {
+        project: "./src",
+      },
+    },
+  },
+  globals: {
+    JSX: true,
+  },
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -27,7 +42,7 @@ module.exports = {
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
     "react/react-in-jsx-scope": "off",
-    "react/jsx-props-no-spreading": "warn",
+    "react/jsx-props-no-spreading": "off",
     "react/jsx-filename-extension": ["error", { extensions: [".tsx", ".ts"] }],
     "react/prop-types": "off",
     "jsx-a11y/anchor-is-valid": [
@@ -36,6 +51,16 @@ module.exports = {
         components: ["Link"],
         specialLink: ["hrefLeft", "hrefRight"],
         aspects: ["invalidHref", "preferButton"],
+      },
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        js: "never",
+        jsx: "never",
+        ts: "never",
+        tsx: "never",
       },
     ],
   },

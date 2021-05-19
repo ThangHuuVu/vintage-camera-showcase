@@ -6,10 +6,10 @@ source: https://sketchfab.com/3d-models/old-8mm-camera-64bd72851ef349ef9cd24403d
 title: Old 8mm Camera
 */
 
-import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
+import React, { useRef } from "react";
 
-export default function Model() {
+export default function Camera(): JSX.Element {
   const group = useRef();
   const { nodes, materials } = useGLTF("/gltf/old_8mm_camera/scene.gltf");
   return (

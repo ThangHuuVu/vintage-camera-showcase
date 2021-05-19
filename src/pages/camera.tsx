@@ -1,10 +1,10 @@
-import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import { Suspense } from "react";
+import { Canvas } from "@react-three/fiber";
 import dynamic from "next/dynamic";
+import { Suspense } from "react";
 
-const Camera = dynamic(() => import("../components/Camera"));
-export default function CameraPage() {
+const Camera = dynamic(() => import("@/components/Camera"));
+export default function CameraPage(): JSX.Element {
   return (
     <>
       <Canvas camera={{ position: [0, 0, 35] }}>
