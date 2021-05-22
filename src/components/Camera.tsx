@@ -8,10 +8,14 @@ title: Old 8mm Camera
 
 import { useGLTF } from "@react-three/drei";
 import React, { useRef } from "react";
+import * as THREE from "three";
 
 export default function Camera(): JSX.Element {
   const group = useRef();
-  const { nodes, materials } = useGLTF("/gltf/old_8mm_camera/scene.gltf");
+  const { materials, ...rest } = useGLTF("/gltf/old_8mm_camera/scene.gltf");
+  const nodes = rest.nodes as {
+    [name: string]: THREE.Mesh;
+  };
   return (
     <group ref={group} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
