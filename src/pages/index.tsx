@@ -1,11 +1,18 @@
+import Layout from "@/components/layouts/Layout";
 import Link from "next/link";
+import React from "react";
+import AboutPage from "./about";
+import HomePage from "./camera";
 
 export default function IndexPage(): JSX.Element {
   return (
-    <div className="main">
-      <Link href="/camera">
-        <a>Camera</a>
+    <Layout>
+      <Link href="/about">
+        <AboutPage />
       </Link>
-    </div>
+      <Link href="/">
+        <HomePage />
+      </Link>
+    </Layout>
   );
 }

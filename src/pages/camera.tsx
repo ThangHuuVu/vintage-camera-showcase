@@ -1,13 +1,17 @@
+import { Box } from "@chakra-ui/layout";
 import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import dynamic from "next/dynamic";
-import { Suspense } from "react";
+import React, { Suspense } from "react";
 
 const Camera = dynamic(() => import("@/components/Camera"));
-export default function CameraPage(): JSX.Element {
+export default function HomePage(): JSX.Element {
   return (
-    <>
-      <Canvas camera={{ position: [0, 0, 35] }}>
+    <Box w="100%">
+      <Canvas
+        style={{ width: "100%", height: "100vh" }}
+        camera={{ position: [0, 0, 35] }}
+      >
         <ambientLight intensity={10} />
         <pointLight position={[45, 45, 45]} />
         <Suspense fallback={<mesh />}>
@@ -15,6 +19,6 @@ export default function CameraPage(): JSX.Element {
         </Suspense>
         <OrbitControls />
       </Canvas>
-    </>
+    </Box>
   );
 }
