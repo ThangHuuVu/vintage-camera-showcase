@@ -1,25 +1,24 @@
-# With Three js
+# Vintage cameras showcase
 
-This example uses:
+## Motivation
 
-[`threejs`](https://threejs.org/): A lightweight, 3D library with a default WebGL renderer. The library also provides Canvas 2D, SVG and CSS3D renderers in the examples.
-[`react-three-fiber`](https://github.com/pmndrs/react-three-fiber): A React renderer for Threejs on the web and react-native.
-[`drei`](https://github.com/pmndrs/drei): A growing collection of useful helpers and abstractions for react-three-fiber.
+This is a hobby project to experiment with interactions using 3D models. We aim to build a site where visitors can examine and learn how a vintage camera works.
 
-## Deploy your own
+## Tech Stack
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+For this Frontend focused project we use the following technologies:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-three-js&project-name=with-three-js&repository-name=with-three-js)
+- [Next.js](https://nextjs.org/) for framework
+- [Three.js](https://threejs.org/), [react-three-fiber](https://github.com/pmndrs/react-three-fiber) and [drei](https://github.com/pmndrs/drei) for 3D programming
+- [Chakra UI](https://chakra-ui.com/) and [Storybook](https://storybook.js.org) for design system
 
-## How to use
+Currently deploying on [netlify](https://www.netlify.com/).
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+## Authors
 
-```bash
-npx create-next-app --example with-three-js with-three-js-app
-# or
-yarn create next-app --example with-three-js with-three-js-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ThangHuuVu"><img src="https://avatars.githubusercontent.com/u/31528554?v=4" width="100px;" alt="ThangHuuVu"/><br /><sub><b>Thang Huu Vu</b></sub></a><br /><span title="Developer">💻</span> <span title="Design">🎨</span> </td>
+    <td align="center"><a href="https://github.com/ducpham163"><img src="https://avatars.githubusercontent.com/u/50538067?v=4" width="100px;" alt="Duc Pham"/><br /><sub><b>Duc Pham</b></sub></a><br /><span title="Design">🎨</span></td>
+  </tr>
+</table>
