@@ -1,5 +1,5 @@
 # Vintage cameras showcase
-
+[![Chromatic](https://github.com/ThangHuuVu/vintage-camera-showcase/actions/workflows/chromatic.yml/badge.svg)](https://github.com/ThangHuuVu/vintage-camera-showcase/actions/workflows/chromatic.yml)
 ## Motivation
 
 This is a hobby project to experiment with interactions using 3D models. We aim to build a site where visitors can examine and learn how a vintage camera works.
