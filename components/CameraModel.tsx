@@ -10,7 +10,7 @@ import { useGLTF } from "@react-three/drei";
 import React, { useRef } from "react";
 import * as THREE from "three";
 
-export default function Camera(): JSX.Element {
+export default function CameraModel(): JSX.Element {
   const group = useRef();
   const { materials, ...rest } = useGLTF("/gltf/old_8mm_camera/scene.gltf");
   const nodes = rest.nodes as {
