@@ -21,7 +21,7 @@ module.exports = {
         extensions: [".js", ".jsx", ".ts", ".tsx"],
       },
       typescript: {
-        project: "./src",
+        project: ".",
       },
     },
   },
