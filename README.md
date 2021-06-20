@@ -10,7 +10,7 @@ For this Frontend focused project we use the following technologies:
 
 - [Next.js](https://nextjs.org/) for framework
 - [Three.js](https://threejs.org/), [react-three-fiber](https://github.com/pmndrs/react-three-fiber) and [drei](https://github.com/pmndrs/drei) for 3D programming
-- [Chakra UI](https://chakra-ui.com/) and [Storybook](https://storybook.js.org) for design system
+- [Tailwindcss](https://tailwindcss.com/) and [Storybook](https://storybook.js.org) for design system
 
 Currently deploying on [netlify](https://www.netlify.com/).
 
