@@ -1,0 +1,202 @@
+{
+    "asset": {
+        "copyright": "(C)2021 84943",
+        "generator": "maya2glTF v1.3.1 efac516101b7",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "name": "cam_01",
+            "children": [
+                1
+            ],
+            "translation": [
+                10.808049201965332,
+                34.300079345703128,
+                -36.08430862426758
+            ],
+            "rotation": [
+                0.0,
+                0.9386541843414308,
+                0.0,
+                -0.3448598086833954
+            ],
+            "scale": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929
+            ]
+        },
+        {
+            "name": "cam_01:PIV",
+            "mesh": 0,
+            "translation": [
+                31.736228942871099,
+                -27.72369384765625,
+                -31.41276741027832
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "name": "cam_01Shape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {}
+        }
+    ],
+    "accessors": [
+        {
+            "name": "cam_01Shape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 132,
+            "max": [
+                103
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "cam_01Shape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 104,
+            "max": [
+                0.7621434330940247,
+                1.0,
+                0.7621434330940247
+            ],
+            "min": [
+                -0.7621434330940247,
+                -1.0,
+                -0.7621434330940247
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "cam_01Shape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 1248,
+            "componentType": 5126,
+            "count": 104,
+            "max": [
+                -31.0683650970459,
+                28.592252731323247,
+                32.86125946044922
+            ],
+            "min": [
+                -32.40409469604492,
+                26.85513687133789,
+                29.96427345275879
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "cam_01Shape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 104,
+            "max": [
+                0.6474081873893738,
+                0.9238807559013368,
+                0.7621434330940247,
+                1.0
+            ],
+            "min": [
+                -0.7621434330940247,
+                -0.999873161315918,
+                -0.7621434330940247,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "cam_01Shape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 104,
+            "max": [
+                0.875,
+                1.0
+            ],
+            "min": [
+                0.125,
+                0.0
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "bufferViews": [
+        {
+            "name": "cam_01/data/indices-2",
+            "buffer": 0,
+            "byteOffset": 4992,
+            "byteLength": 264,
+            "target": 34963
+        },
+        {
+            "name": "cam_01/data/vertices-12",
+            "buffer": 0,
+            "byteOffset": 1664,
+            "byteLength": 2496,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "name": "cam_01/data/vertices-16",
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 1664,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "name": "cam_01/data/vertices-8",
+            "buffer": 0,
+            "byteOffset": 4160,
+            "byteLength": 832,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "name": "cam_01/data",
+            "byteLength": 5256,
+            "uri": "cam_010.bin"
+        }
+    ]
+}

@@ -1,0 +1,561 @@
+{
+    "asset": {
+        "copyright": "(C)2021 84943",
+        "generator": "maya2glTF v1.3.1 efac516101b7",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                4,
+                2,
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "name": "polySurface339",
+            "children": [
+                1
+            ],
+            "translation": [
+                11.003155708312989,
+                34.300079345703128,
+                -36.250038146972659
+            ]
+        },
+        {
+            "name": "polySurface339:PIV",
+            "mesh": 0,
+            "translation": [
+                -11.003155708312989,
+                -34.300079345703128,
+                36.250038146972659
+            ]
+        },
+        {
+            "name": "polySurface230",
+            "children": [
+                3
+            ],
+            "translation": [
+                0.0,
+                40.403072357177737,
+                0.0
+            ]
+        },
+        {
+            "name": "polySurface230:PIV",
+            "mesh": 1,
+            "translation": [
+                0.0,
+                -40.403072357177737,
+                0.0
+            ]
+        },
+        {
+            "name": "polySurface191",
+            "children": [
+                5
+            ],
+            "translation": [
+                16.48567390441895,
+                28.380582809448247,
+                -30.29991149902344
+            ]
+        },
+        {
+            "name": "polySurface191:PIV",
+            "mesh": 2,
+            "translation": [
+                -16.48567390441895,
+                -28.380582809448247,
+                30.29991149902344
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "name": "polySurface339Shape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "polySurface230Shape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "COLOR_0": 6,
+                        "NORMAL": 7,
+                        "POSITION": 8,
+                        "TANGENT": 9,
+                        "TEXCOORD_0": 10
+                    },
+                    "indices": 5,
+                    "mode": 4,
+                    "material": 0
+                },
+                {
+                    "attributes": {
+                        "NORMAL": 12,
+                        "POSITION": 13,
+                        "TANGENT": 14,
+                        "TEXCOORD_0": 15
+                    },
+                    "indices": 11,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "polySurface191Shape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 17,
+                        "POSITION": 18,
+                        "TANGENT": 19,
+                        "TEXCOORD_0": 20
+                    },
+                    "indices": 16,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {}
+        }
+    ],
+    "accessors": [
+        {
+            "name": "polySurface339Shape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 132,
+            "max": [
+                103
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "polySurface339Shape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 104,
+            "max": [
+                0.7621459364891052,
+                1.0,
+                0.7621427774429321
+            ],
+            "min": [
+                -0.7621497511863709,
+                -1.0,
+                -0.7621427774429321
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "polySurface339Shape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 1248,
+            "componentType": 5126,
+            "count": 104,
+            "max": [
+                11.965469360351565,
+                34.99492645263672,
+                -35.18670272827149
+            ],
+            "min": [
+                10.04084300994873,
+                33.60523223876953,
+                -37.313377380371097
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "polySurface339Shape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 104,
+            "max": [
+                0.6474093198776245,
+                0.923882246017456,
+                0.762142539024353,
+                1.0
+            ],
+            "min": [
+                -0.7621431350708008,
+                -0.9998732209205629,
+                -0.762142539024353,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "polySurface339Shape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 104,
+            "max": [
+                0.875,
+                1.0
+            ],
+            "min": [
+                0.125,
+                0.0
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "polySurface230Shape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 264,
+            "componentType": 5123,
+            "count": 7656,
+            "max": [
+                3917
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "polySurface230Shape#0/vertices/COLOR_0",
+            "bufferView": 2,
+            "byteOffset": 1664,
+            "componentType": 5126,
+            "count": 3918,
+            "max": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "polySurface230Shape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 2496,
+            "componentType": 5126,
+            "count": 3918,
+            "max": [
+                0.7621464729309082,
+                1.0,
+                0.7621517777442932
+            ],
+            "min": [
+                -0.7621452808380127,
+                -1.0,
+                -0.8184363842010498
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "polySurface230Shape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 49512,
+            "componentType": 5126,
+            "count": 3918,
+            "max": [
+                39.96402740478516,
+                64.04217529296875,
+                -7.324736595153809
+            ],
+            "min": [
+                8.960957527160645,
+                59.85673141479492,
+                -43.720664978027347
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "polySurface230Shape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 64352,
+            "componentType": 5126,
+            "count": 3918,
+            "max": [
+                0.9059394598007202,
+                1.0,
+                0.8495570421218872,
+                1.0
+            ],
+            "min": [
+                -0.9068022966384888,
+                -1.0,
+                -0.6477054357528687,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "polySurface230Shape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 832,
+            "componentType": 5126,
+            "count": 3918,
+            "max": [
+                0.9786314964294434,
+                0.9980079531669616
+            ],
+            "min": [
+                0.0019533559679985048,
+                0.0019919280894100668
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "polySurface230Shape#1/indices",
+            "bufferView": 0,
+            "byteOffset": 15576,
+            "componentType": 5123,
+            "count": 36780,
+            "max": [
+                24962
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "polySurface230Shape#1/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 96528,
+            "componentType": 5126,
+            "count": 24963,
+            "max": [
+                0.9967051148414612,
+                1.0,
+                0.9967216849327089
+            ],
+            "min": [
+                -0.9967066049575806,
+                -1.0,
+                -0.996705949306488
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "polySurface230Shape#1/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 396084,
+            "componentType": 5126,
+            "count": 24963,
+            "max": [
+                253.40176391601566,
+                80.98009490966797,
+                253.40176391601566
+            ],
+            "min": [
+                -253.40176391601566,
+                -0.1739482879638672,
+                -253.40176391601566
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "polySurface230Shape#1/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 127040,
+            "componentType": 5126,
+            "count": 24963,
+            "max": [
+                0.9997716546058656,
+                1.0,
+                0.9977952837944032,
+                1.0
+            ],
+            "min": [
+                -0.9997716546058656,
+                -1.0,
+                -0.9987668991088868,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "polySurface230Shape#1/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 32176,
+            "componentType": 5126,
+            "count": 24963,
+            "max": [
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "polySurface191Shape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 89136,
+            "componentType": 5123,
+            "count": 228,
+            "max": [
+                183
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "polySurface191Shape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 695640,
+            "componentType": 5126,
+            "count": 184,
+            "max": [
+                0.7621517181396484,
+                1.0,
+                0.762143611907959
+            ],
+            "min": [
+                -0.7621474862098694,
+                -1.0,
+                -0.7621433734893799
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "polySurface191Shape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 697848,
+            "componentType": 5126,
+            "count": 184,
+            "max": [
+                17.40481948852539,
+                29.53937530517578,
+                -29.37844848632813
+            ],
+            "min": [
+                15.566527366638184,
+                27.22178840637207,
+                -31.22137451171875
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "polySurface191Shape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 526448,
+            "componentType": 5126,
+            "count": 184,
+            "max": [
+                0.5981298089027405,
+                1.0,
+                0.7041332721710205,
+                1.0
+            ],
+            "min": [
+                -0.762143611907959,
+                -1.0,
+                -0.7620498538017273,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "polySurface191Shape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 231880,
+            "componentType": 5126,
+            "count": 184,
+            "max": [
+                0.875,
+                1.0
+            ],
+            "min": [
+                0.125,
+                0.0
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "bufferViews": [
+        {
+            "name": "background/data/indices-2",
+            "buffer": 0,
+            "byteOffset": 1462800,
+            "byteLength": 89592,
+            "target": 34963
+        },
+        {
+            "name": "background/data/vertices-12",
+            "buffer": 0,
+            "byteOffset": 529392,
+            "byteLength": 700056,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "name": "background/data/vertices-16",
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 529392,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "name": "background/data/vertices-8",
+            "buffer": 0,
+            "byteOffset": 1229448,
+            "byteLength": 233352,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "name": "background/data",
+            "byteLength": 1552392,
+            "uri": "background0.bin"
+        }
+    ]
+}
