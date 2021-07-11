@@ -12,13 +12,14 @@ For this Frontend focused project we use the following technologies:
 - [Three.js](https://threejs.org/), [react-three-fiber](https://github.com/pmndrs/react-three-fiber) and [drei](https://github.com/pmndrs/drei) for 3D programming
 - [Tailwindcss](https://tailwindcss.com/) and [Storybook](https://storybook.js.org) for design system
 
-Currently deploying on [netlify](https://www.netlify.com/).
+Currently deploying on [Vercel](https://www.vercel.com/).
 
 ## Authors
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/ThangHuuVu"><img src="https://avatars.githubusercontent.com/u/31528554?v=4" width="100px;" alt="ThangHuuVu"/><br /><sub><b>Thang Huu Vu</b></sub></a><br /><span title="Developer">💻</span> <span title="Design">🎨</span> </td>
+    <td align="center"><a href="https://github.com/ThangHuuVu"><img src="https://avatars.githubusercontent.com/u/31528554?v=4" width="100px;" alt="ThangHuuVu"/><br /><sub><b>Thang Huu Vu</b></sub></a><br /><span title="Code">💻</span></td>
     <td align="center"><a href="https://github.com/ducpham163"><img src="https://avatars.githubusercontent.com/u/50538067?v=4" width="100px;" alt="Duc Pham"/><br /><sub><b>Duc Pham</b></sub></a><br /><span title="Design">🎨</span></td>
+    <td align="center"><a href="https://github.com/mminhkhanhh"><img src="https://avatars.githubusercontent.com/u/87240389?v=4" width="100px;" alt="Minh Khanh Nguyen"/><br /><sub><b>Minh Khanh Nguyen</b></sub></a><br /><span title="Design">🎨</span></td>
   </tr>
 </table>
