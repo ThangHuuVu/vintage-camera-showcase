@@ -1,0 +1,81 @@
+{
+  "version": "3.0.0",
+  "aspectRatio": "1.7777777777777777",
+  "fps": 24,
+  "defaultBoardTiming": 2000,
+  "boards": [
+    {
+      "uid": "OKMNY",
+      "url": "board-1-OKMNY.png",
+      "newShot": false,
+      "lastEdited": 1625976716129,
+      "layers": {
+        "shot-generator": {
+          "url": "board-1-OKMNY-shot-generator.png",
+          "opacity": 1,
+          "thumbnail": "board-1-OKMNY-shot-generator-thumbnail.jpg"
+        },
+        "reference": {
+          "url": "board-1-OKMNY-reference.png",
+          "opacity": 1
+        }
+      },
+      "number": 1,
+      "shot": "1A",
+      "time": 0,
+      "sg": {
+        "version": "3.0.0",
+        "data": {
+          "world": {
+            "ground": true,
+            "backgroundColor": 15066597,
+            "room": {
+              "visible": false,
+              "width": 10,
+              "length": 10,
+              "height": 3
+            },
+            "environment": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "rotation": 0,
+              "scale": 1,
+              "visible": true,
+              "grayscale": true
+            },
+            "ambient": {
+              "intensity": 0.5
+            },
+            "directional": {
+              "intensity": 0.5,
+              "rotation": -0.9,
+              "tilt": 0.75
+            },
+            "fog": {
+              "visible": true,
+              "far": 40
+            },
+            "shadingMode": "Outline"
+          },
+          "sceneObjects": {
+            "6BC46A44-7965-43B5-B290-E3D2B9D15EEE": {
+              "id": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+              "type": "camera",
+              "fov": 22.25,
+              "x": -2.5291637739071224,
+              "y": 6,
+              "z": 1,
+              "rotation": 0,
+              "tilt": 0,
+              "roll": 0,
+              "displayName": "Camera 1"
+            }
+          },
+          "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE"
+        }
+      },
+      "lineMileage": 0
+    }
+  ]
+}
