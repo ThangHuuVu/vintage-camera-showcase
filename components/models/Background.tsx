@@ -6,10 +6,16 @@ import { useGLTF } from "@react-three/drei";
 import React, { useRef } from "react";
 import { Mesh } from "three";
 
-export default function BackgroundModel(): JSX.Element {
+interface BackgroundModelProps {
+  onRolleiClick(): void;
+}
+
+export default function BackgroundModel({
+  onRolleiClick,
+}: BackgroundModelProps): JSX.Element {
   const group = useRef();
-  const { materials, ...rest } = useGLTF("/gltf/background/background.gltf");
-  const nodes = rest.nodes as {
+  const gltf = useGLTF("/gltf/background/background.gltf");
+  const nodes = gltf.nodes as {
     [name: string]: Mesh;
   };
   return (
@@ -17,7 +23,7 @@ export default function BackgroundModel(): JSX.Element {
       {/* bottom camera */}
       <group position={[16.49, 28.38, -30.3]}>
         <mesh
-          onClick={() => console.log("123")}
+          onClick={onRolleiClick}
           geometry={nodes.polySurface191PIV.geometry}
           material={nodes.polySurface191PIV.material}
           position={[-16.49, -28.38, 30.3]}
@@ -34,7 +40,6 @@ export default function BackgroundModel(): JSX.Element {
       {/* top camera */}
       <group position={[11, 34.3, -36.25]}>
         <mesh
-          onClick={() => console.log("456")}
           geometry={nodes.polySurface339PIV.geometry}
           material={nodes.polySurface339PIV.material}
           position={[-11, -34.3, 36.25]}
