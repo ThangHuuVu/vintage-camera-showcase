@@ -1,5 +1,5 @@
 import Layout from "@/components/layouts/Layout";
-import "@/css/global.css";
+import "../styles/globals.css";
 import { AppProps } from "next/app";
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
