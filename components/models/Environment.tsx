@@ -1,25 +1,34 @@
-/* eslint-disable no-multi-assign */
-/* eslint-disable no-return-assign */
 import { useThree } from "@react-three/fiber";
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 import { PMREMGenerator, UnsignedByteType } from "three";
 // eslint-disable-next-line import/extensions
 import { RGBELoader } from "three/examples/jsm/loaders/RGBELoader.js";
 
-export default function Environment({ HDRI }) {
+interface EnvironmentProp {
+  HdriName: string;
+  environment?: boolean;
+  background?: boolean;
+}
+
+const ENVIRONMENT_PREFIX = "environment/";
+
+export default function Environment({
+  HdriName,
+  environment = true,
+  background = false,
+}: EnvironmentProp): null {
   const { gl, scene } = useThree();
   const pmremGenerator = new PMREMGenerator(gl);
   const loader = new RGBELoader();
   loader.setDataType(UnsignedByteType);
   pmremGenerator.compileEquirectangularShader();
 
-  useEffect(() => {
-    loader.load(HDRI, texture => {
+  useLayoutEffect(() => {
+    loader.load(`${ENVIRONMENT_PREFIX}/${HdriName}`, texture => {
       const envMap = pmremGenerator.fromEquirectangular(texture).texture;
 
-      scene.environment = envMap;
-      scene.background = envMap;
-      // one can also set scene.background to envMap here
+      if (environment) scene.environment = envMap;
+      if (background) scene.background = envMap;
 
       texture.dispose();
       pmremGenerator.dispose();

@@ -6,15 +6,16 @@ import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 import { Mesh } from "three";
 
-export default function Model(props) {
+export default function Model() {
   const group = useRef();
   const gltf = useGLTF("/gltf/rolleiflex/rollei.gltf");
+
   const nodes = gltf.nodes as {
     [name: string]: Mesh;
   };
 
   return (
-    <group ref={group} {...props} dispose={null}>
+    <group ref={group} dispose={null}>
       <group position={[-0.35, 2.22, -0.14]} scale={[2.46, 2.46, 2.46]}>
         <mesh
           geometry={nodes.pSphere1_lens_grp_rollei_1002.geometry}

@@ -10,7 +10,7 @@ export default function MainScene(): JSX.Element {
   });
   const router = useRouter();
   const onRolleiClick = () => {
-    router.push("/rollei");
+    router.push("/rolleiflex");
   };
   const canvasStyle = useMemo(() => ({ width: "100vw", height: "100vh" }), []);
   return (
