@@ -41,6 +41,7 @@ module.exports = {
     quotes: ["error", "double"],
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
+    "@typescript-eslint/explicit-module-boundary-types": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": "off",
     "react/jsx-filename-extension": ["error", { extensions: [".tsx", ".ts"] }],
