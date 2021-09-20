@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Rolleiflex from "./models/Rolleiflex";
+import LoadingScreen from "./LoadingScreen";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -19,7 +20,11 @@ const cameraPosition = {
   zoomedIn: { x: 0, y: 2, z: 6 },
 };
 
-export default function RolleiflexContainer() {
+export interface Props {
+  isEnvLoaded: boolean;
+}
+
+export default function RolleiflexContainer({ isEnvLoaded }) {
   const { scene, camera } = useThree();
   const rolleiflexTimeline = useRef<gsap.core.Timeline>();
 
@@ -55,5 +60,5 @@ export default function RolleiflexContainer() {
       .to(camera.position, { ...cameraPosition.zoomedOut });
   }, []);
 
-  return <Rolleiflex />;
+  return isEnvLoaded ? <Rolleiflex /> : <LoadingScreen />;
 }
