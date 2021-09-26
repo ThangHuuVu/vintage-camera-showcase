@@ -20,12 +20,13 @@ export default function Environment({
   onProgress,
 }: EnvironmentProp): null {
   const { gl, scene } = useThree();
-  const pmremGenerator = new PMREMGenerator(gl);
-  const loader = new RGBELoader();
-  loader.setDataType(UnsignedByteType);
-  pmremGenerator.compileEquirectangularShader();
 
   useLayoutEffect(() => {
+    const pmremGenerator = new PMREMGenerator(gl);
+    const loader = new RGBELoader();
+    loader.setDataType(UnsignedByteType);
+    pmremGenerator.compileEquirectangularShader();
+
     loader.load(
       `${ENVIRONMENT_PREFIX}/${HdriName}`,
       texture => {
@@ -41,7 +42,7 @@ export default function Environment({
         onProgress(loaded / total);
       }
     );
-  }, [scene, loader, pmremGenerator]);
+  }, [scene, HdriName, background, environment, gl, onProgress]);
 
   return null;
 }

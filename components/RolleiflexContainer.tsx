@@ -58,7 +58,7 @@ export default function RolleiflexContainer({ isEnvLoaded }) {
       .to(scene.rotation, { ...sceneRotation.left })
       .to(scene.rotation, { ...sceneRotation.frontReverse })
       .to(camera.position, { ...cameraPosition.zoomedOut });
-  }, []);
+  }, [camera.position, scene.rotation]);
 
   return isEnvLoaded ? <Rolleiflex /> : <LoadingScreen />;
 }
